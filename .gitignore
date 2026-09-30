@@ -1,0 +1,10 @@
+.vscode
+.DS_Store
+.classpath
+.project
+.settings/
+target/
+.metadata
+VOUS ÊTES*.docx
+~*
+.~*

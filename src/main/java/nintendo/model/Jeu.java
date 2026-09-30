@@ -7,13 +7,25 @@ public class Jeu {
 	private Boutique boutique;
 	
 	
+<<<<<<< Updated upstream
 	public Jeu(String titre, Console console, String nom, String numero, String rue, String ville) {
 		this.titre = titre;
 		this.console = console;
 		this.boutique = new Boutique(nom, numero, rue, ville);
+=======
+	public Jeu(String titre, Console console, Boutique boutique) {
+		this.titre = titre;
+		this.console = console;
+		this.boutique = boutique;
+>>>>>>> Stashed changes
 	}
 
 
+	public Jeu(String titre, Console console) {
+		this.titre = titre;
+		this.console = console;
+	
+	}
 
 	public String getTitre() {
 		return titre;

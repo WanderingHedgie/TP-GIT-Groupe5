@@ -17,5 +17,9 @@ public class Test {
 		Boutique bout1 = new Boutique("Nintendo Shop", "15", "Avenue Siri", "Paris");
 		Client cli1 = new Client("Durand","Noemie");
 		Client cli2 = new Client("Harris","Clinton");
+		Client client1 = new Client("Miyamoto", "Shigeru");
+		List<Achat> achats = new ArrayList<>();
+		Collections.addAll(achats, jeu1, jeu2,jeu3,jeu4,jeu5);
+		client1.setAchats(achats);
 	}
 }

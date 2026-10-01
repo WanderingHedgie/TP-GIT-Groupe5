@@ -10,12 +10,13 @@ import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
+import nintendo.model.Portable;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// ~~~~ CONSOLES ~~~~
-		Console console1 = new Console("Switch",200,LocalDate.parse("2017-03-03"));
+		Console console1 = new Portable("Switch",200,LocalDate.parse("2017-03-03"));
 
 		// ~~~~ JEUX ~~~~
 		Jeu jeu1 = new Jeu("Zelda X", console1, "Star Mania", "9", "rue Paradis", "Pontarlier");

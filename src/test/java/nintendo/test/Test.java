@@ -15,7 +15,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		// ~~~~ CONSOLES ~~~~
-		Console console1 = new Console("Switch");
+		Console console1 = new Console("Switch",200,LocalDate.parse("2017-03-03"));
 
 		// ~~~~ JEUX ~~~~
 		Jeu jeu1 = new Jeu("Zelda X", console1, "Star Mania", "9", "rue Paradis", "Pontarlier");

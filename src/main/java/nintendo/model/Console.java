@@ -11,7 +11,6 @@ public abstract class Console {
 
 	
 	public Console(String nom, double prix, LocalDate dateSortie) {
-		super();
 		this.nom = nom;
 		this.prix = prix;
 		this.dateSortie = dateSortie;

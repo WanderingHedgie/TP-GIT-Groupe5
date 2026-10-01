@@ -4,42 +4,18 @@ import java.time.LocalDate;
 
 public class Portable extends Console{
 
-	private String nom;
-	private double prix;
-	private LocalDate dateSortie;
+	
 
 	public Portable(String nom, double prix, LocalDate dateSortie) {
 		super(nom, prix, dateSortie);
 	}
 
 	
-	public String getNom() {
-		return nom;
-	}
-
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
-	public double getPrix() {
-		return prix;
-	}
-
-	public void setPrix(double prix) {
-		this.prix = prix;
-	}
-
-	public LocalDate getDateSortie() {
-		return dateSortie;
-	}
-
-	public void setDateSortie(LocalDate dateSortie) {
-		this.dateSortie = dateSortie;
-	}
+	
 
 	@Override
 	public String toString() {
-		return "Salon [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
+		return "Salon [nom=" + this.getNom() + ", prix=" + this.getPrix() + ", dateSortie=" + this.getDateSortie() + "]";
 	}
 		
 		
